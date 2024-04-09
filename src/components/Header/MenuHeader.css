@@ -1,0 +1,55 @@
+.menuHoverBlack {
+}
+.HoverBlackBtn::after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: '';
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: #bfa888;
+	transition: width 0.5s ease 0s, left 0.5s ease 0s;
+	width: 0;
+}
+.HoverBlackBtn:hover:after  {
+	width: 100%;
+	left: 0;
+}
+
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	position: absolute;
+	left: 0%;
+	/* top: 0%; */
+	/* background-color: #2d2d2d;
+	color: white; */
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 10;
+	transition: all .3s;
+}
+
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #bfa888;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */

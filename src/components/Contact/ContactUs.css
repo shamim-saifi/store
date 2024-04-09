@@ -1,0 +1,6 @@
+#ContactUs{
+    background-image: url("../../img//Contact-Us.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    background-size: cover;
+}
